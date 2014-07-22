@@ -63,7 +63,7 @@ module Cinch::Plugins
 
         if output_title = body.at_xpath("*//h2[text()='Program Output']")
           output = output_title.next_element.text
-          first_line = output.each_line.first.chomp
+          first_line = (output.each_line.first || "").chomp
           needs_ellipsis = output.each_line.count > 1 ||
             first_line.length > MaxLength
 
