@@ -21,6 +21,7 @@ Gem::Specification.new do |s|
   s.license = "zlib"
 
   s.add_dependency "cinch", "~> 2.1"
+  s.add_dependency "nokogiri", "~> 1.6"
 
   s.require_paths = %w[lib]
 end
