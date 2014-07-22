@@ -4,7 +4,7 @@
 Gem::Specification.new do |s|
   s.name = "cinch-eval-in"
 
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 
   s.summary = "A Cinch plug-in to evaluate Ruby code on https://eval.in."
   s.description = s.summary
